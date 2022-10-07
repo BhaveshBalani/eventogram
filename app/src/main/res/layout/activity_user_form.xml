@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg3"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Register your event"
+        android:textColor="#125"
+        android:textSize="35dp"
+        android:padding="35dp"
+        android:textStyle="bold"
+        />
+
+
+    <EditText
+        android:layout_margin="20dp"
+        android:id="@+id/uName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:hint="Name"
+        android:textSize="34dp"
+        />
+
+
+    <EditText
+        android:layout_margin="20dp"
+        android:id="@+id/uPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:hint="Mobile No:"
+        android:textSize="34dp"
+        />
+
+
+    <EditText
+        android:layout_margin="20dp"
+        android:id="@+id/uEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:hint="Email"
+        android:textSize="34dp"
+        />
+
+
+    <EditText
+        android:layout_margin="20dp"
+        android:id="@+id/uStream"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Stream"
+        android:textSize="34dp"
+        />
+
+    <Button
+        android:layout_margin="20dp"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="submit"
+        android:textSize="23dp"
+        app:layout_constraintEnd_toEndOf="@+id/uStream"
+        app:layout_constraintStart_toStartOf="@+id/uStream"
+        app:layout_constraintTop_toBottomOf="@+id/uStream" />
+
+    <Button
+        android:id="@+id/uData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="60dp"
+        android:text="data"
+        android:textSize="23dp"
+        app:layout_constraintEnd_toEndOf="@+id/uStream"
+        app:layout_constraintStart_toStartOf="@+id/uStream"
+        app:layout_constraintTop_toBottomOf="@+id/uStream" />
+
+
+</LinearLayout>
